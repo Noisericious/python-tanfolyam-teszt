@@ -1,0 +1,8 @@
+<data>
+    <items><item name="value1">Data 1</item>
+        <item name="mod" uj="valami">modos&#237;tva</item>
+    </items>
+    <cars>
+        <car color="black" brand="Audi" />
+    </cars>
+</data>

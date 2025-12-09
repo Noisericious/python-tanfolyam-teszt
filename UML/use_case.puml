@@ -1,0 +1,14 @@
+@startuml
+actor Admin
+actor Pincér
+actor Vendég
+
+Admin --> (Menut szerkezti)
+Admin --> (Statisztika generálás)
+Admin --> (Rendelések szerkesztése)
+
+Pincér --> (Rendelést felvesz)
+Pincér --> (Rendelés listázása)
+
+Vendég --> (Visszajelzést ad)
+@enduml

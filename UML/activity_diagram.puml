@@ -1,0 +1,13 @@
+@startuml
+start
+:Admin logs in;
+if (Admin rights?) then (Yes)
+    :manage manu;
+    :edit, add, delete items;
+    :save Menu;
+else (No)
+    :Error: Access Denied;
+endif
+stop
+
+@enduml

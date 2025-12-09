@@ -1,0 +1,12 @@
+@startuml
+actor Waiter
+participant System
+
+Waiter -> System: Start New Order
+System -> Waiter: Display Menu
+Waiter -> System: Select Items
+System -> Waiter: Confirm Selection
+Waiter -> System: Save Order
+System -> Waiter: Order Success
+
+@enduml
