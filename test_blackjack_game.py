@@ -154,7 +154,7 @@ def test_player_and_dealer_outcomes(blackjack_module, capsys):
 
     def run_logic(player_value, dealer_value, card_rank, expected_message, expected_sum):
         """
-        Komment1
+        second komment1.
         """
         player = Hand()
         player.value = player_value
