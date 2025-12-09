@@ -153,6 +153,9 @@ def test_player_and_dealer_outcomes(blackjack_module, capsys):
     Chips = blackjack_module.Chips
 
     def run_logic(player_value, dealer_value, card_rank, expected_message, expected_sum):
+        """
+        Added run logic
+        """
         player = Hand()
         player.value = player_value
         player.ace = 0
